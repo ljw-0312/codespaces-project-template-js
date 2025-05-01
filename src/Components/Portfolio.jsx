@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/2.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -52,7 +52,7 @@ const projectList = [
     title: "GitHub Codespaces and github.dev",
     description:
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    url: "https://namu.wiki/w/GitHub",
   },
 ];
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "80%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
